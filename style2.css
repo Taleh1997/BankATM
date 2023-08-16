@@ -1,0 +1,18 @@
+.div-balance {
+    width: 500px;
+    height: 300px;
+    background-color: bisque;
+    border: 3px solid rgba(177, 75, 75, 0.199);
+    box-shadow: 0 0 10px brown;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.balance-inp {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

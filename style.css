@@ -1,0 +1,30 @@
+.main1{
+    background-color:yellow;
+    height: 700px;
+    display: flex;
+    place-items: center;
+}
+
+.main-div{
+    margin: 0 auto;
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+    width: 50%;
+    padding: 100px;
+}
+.input{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.Inplabel{
+    font-size: 20px;
+    
+}
+
+.btn-primary{
+    width: 30%;
+    font-size: 18px;
+}
