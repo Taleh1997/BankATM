@@ -1,8 +1,6 @@
 .main1{
     background-color:yellow;
     height: 700px;
-    display: flex;
-    place-items: center;
 }
 
 .main-div{

@@ -11,23 +11,36 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"
         defer></script>
     <link rel="stylesheet" href="./style.css">
-    <script src="./DOM.js" defer></script>
-    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./style2.css">
+
 </head>
 
 <body>
-    <main class="container main1">
-        <div class="main-div">
-            <form action="">
+    <main class="container main1 d-flex justify-content-center align-items-center">
+        <div class="main-div" id="mainDiv">
+            <form action="" id="mainform">
                 <h2 class="text">Welcome to Money Bank</h2>
                 <label for="" class="Inplabel">Enter the account name:</label> <br>
                 <input type="text" class="input" placeholder="Your name" id="inpName"> <br> <br>
                 <label for="" class="Inplabel">Enter the password:</label> <br>
                 <input type="password" name="" id="inpPassword" class="input" placeholder="Password"> <br><br>
-                <a href="./index2.html" target="_blank" class="btn btn-primary" type="button" id="btnSign">Sing in</a>
+                <button target="_blank" class="btn btn-primary" type="submit" id="btnSign">Sign In</button>
+            </form>
+        </div>
+
+        <div class="div-balance d-none " id="divBalance">
+            <form action="">
+                <label for="" style="font-size: 18px;">Add to balance:</label> <br>
+                <input type="number" name="" id="inpAdd" class="balance-inp"> <br> <br>
+                <label for="" style="font-size: 18px;">Withdraw from balance:</label> <br>
+                <input type="number" name="" id="inpDraw" class="balance-inp"> <br> <br>
+                <button type="button" class="btn btn-info" id="inpShow">Show balance</button>
             </form>
         </div>
     </main>
+    <script src="./DOM.js"></script>
+    <script src="./main.js"></script>
+    <script src="./add.js"></script>
 </body>
 
 </html>
